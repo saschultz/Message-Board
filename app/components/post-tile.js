@@ -7,5 +7,3 @@ export default Ember.Component.extend({
     }
   }
 });
-
-//this wasn't here before.. 
