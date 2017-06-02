@@ -3,6 +3,34 @@
 </div>
 
 <div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <nav class="navbar navbar-light bg-faded">
+        {{#link-to 'index'}}<a class="navbar-brand">
+          <!-- <img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> -->
+          home
+        </a>{{/link-to}}
+      </nav>
+    </div>
+    <div class="col-sm-4">
+      <nav class="navbar navbar-light bg-faded">
+        {{#link-to 'about'}}<a class="navbar-brand">
+          <!-- <img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> -->
+          about
+        </a>{{/link-to}}
+      </nav>
+    </div>
+
+    <div class="col-sm-4">
+      <nav class="navbar navbar-light bg-faded">
+        {{#link-to 'community'}}<a class="navbar-brand">
+          <!-- <img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> -->
+          community
+        </a>{{/link-to}}
+      </nav>
+    </div>
+  </div>
+  <hr>
   {{outlet}}
 </div>
 <hr>
