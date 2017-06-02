@@ -1,13 +1,12 @@
 # message-board
 
-## Planning
+#### Sara Schultz, 06.02.2017
 
-1. Configuration/dependencies
-  * NPM: used to installed Ember Addons
-  * Bower: used by the Ember Command Line Interface to manage packages
-  * Firebase: a google cloud database to store information in JSON format https://firebase.google.com/
+The second solo JavaScript project at Epicodus was to build an Ember.js message board application. This application is created specially for femme identifying developers in Portland, OR. The application allows the user to enter questions, as well as answer questions of the other developers in their community. It also serves as a resource for women in tech to connect to meet ups and grow in knowledge.
 
-2. Specs
+![screenshot](/assets/images/preview.png)
+
+## Specs
 
 | Behavior                   | Input Example     | Output Example    |
 | -------------------------- | -----------------:| -----------------:|
@@ -15,21 +14,41 @@
 |A user can answer a question after clicking it on the homepage| Answer: Epicodus is great! Author: Epicodus Student| Answer displayed on specific questions page|
 |A user can update their question|Question: What is a good code school in Portland?|Question: What is a good code school in downtown Portland, OR?|
 
-3. Integration
+## Prerequisites
 
-  * Home page/index route
-  * Question detail page/route
-  * About page/route
-  * Media/Contact page/route
+You will need the following things properly installed on your computer.
 
-4. UX/UI
+ * [Git](https://git-scm.com/)
+ * [Node.js](https://nodejs.org/) (with NPM)
+ * [Ember CLI](https://ember-cli.com/)
+ * [PhantomJS](http://phantomjs.org/)
 
-  * Install and utilize bootstrap
-  * Implement custom CSS
+## Installation
 
-5. Polish
+ * `git clone <https://github.com/saschultz/Message-Board.git>` this repository
+ * `cd message-board`
+ * `npm install`
 
-  * Refactor
-  * Delete anything unused
-  * Remove debugging tools
-  * Update and complete README.md
+## Running / Development
+
+ * `ember serve`
+ * Visit your app at [http://localhost:4200](http://localhost:4200).
+
+## Known Bugs
+
+None known.
+
+## Support/Contact Details
+
+For support or questions contact Sara: saschultz8@gmail.com
+
+## Technologies Used
+* HTML
+* CSS, Bootstrap
+* JavaScript
+* Node.js
+* Ember.js
+
+### License
+
+This software is licensed under the **_MIT License_** Copyright (c) 2017 Sara Schultz
