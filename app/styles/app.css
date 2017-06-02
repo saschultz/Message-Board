@@ -4,8 +4,14 @@
   background-position: top;
   background-size: cover;
   height: 290px;
-  color: #63728c;
   letter-spacing: 5px;
+}
+
+.jumbotron h1 {
+  font-family: 'Bungee Outline', cursive;
+  /*color: #63728c;*/
+  color: gray;
+  font-weight: 900;
 }
 
 .nav-column {
@@ -28,6 +34,10 @@ a {
 
 #home-img {
   margin-left: 3px;
+}
+
+.container {
+  font-family: 'Arvo', serif; best so far
 }
 
 .sub-header {
@@ -71,3 +81,8 @@ footer {
   letter-spacing: 0px;
   color: black;
 }
+
+
+/*font-family: 'Inconsolata', monospace;*/
+/*font-family: 'Work Sans', sans-serif;*/
+/*font-family: 'Droid Sans Mono', monospace;*/*/
