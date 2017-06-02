@@ -1,5 +1,5 @@
 {{#if addNewPost}}
-  <p>Ask your fellow developers a question</p>
+  <p class="sub-header">Ask your fellow developers a question</p>
   <form>
     <div class="form-group">
       <label for="question">Question</label>
@@ -16,9 +16,11 @@
       {{input value=notes id="notes"}}
     </div>
 
-    <button {{action 'savePost'}}>Post</button>
+      <button {{action 'savePost'}}>Post</button>
 
   </form>
 {{else}}
-  <button {{action 'postFormShow'}}>Ask a Question</button>
+  <div class="button-div">
+    <button {{action 'postFormShow'}}>Ask a Question</button>
+  </div>  
 {{/if}}
