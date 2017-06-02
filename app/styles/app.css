@@ -2,8 +2,9 @@
   text-align: center;
 }
 
-#nav-bar {
-  text-align: center;
+.nav-column {
+  margin-right: -231px;
+  margin-left: 168px;
 }
 
 .sub-header {
@@ -11,6 +12,10 @@
 }
 
 .button-div {
+  text-align: center;
+}
+
+.community-info {
   text-align: center;
 }
 
