@@ -1,10 +1,21 @@
 .jumbotron {
   text-align: center;
+  background-image: url('/assets/images/code.jpeg');
+  /*background-size: cover;*/
+  background-position: top;
+  background-size: cover;
+  height: 290px;
+  color: #63728c;
 }
 
 .nav-column {
   margin-right: -231px;
   margin-left: 168px;
+}
+
+a {
+  color: #e8a2a2;
+  /*color: #ff8787;*/
 }
 
 #community-img {
@@ -21,6 +32,10 @@
 
 .sub-header {
   text-align: center;
+}
+
+b, strong {
+  color: black;
 }
 
 .button-div {
