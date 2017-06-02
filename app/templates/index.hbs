@@ -1,8 +1,14 @@
 <div class="row">
   <div class="col-sm-6">
     <h3 class="sub-header">Posted Questions</h3>
+    <ul>
+      {{#each model as |post|}}
+        {{post-tile post=post}}
+      {{/each}}
+    </ul>
   </div>
   <div class="col-sm-6">
     <h3 class="sub-header">Ask a Question</h3>
+    {{new-post savePost="savePost"}}
   </div>
 </div>
