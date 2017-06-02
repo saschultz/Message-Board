@@ -1,1 +1,6 @@
-{{yield}}
+<p>answers</p>
+<ul>
+  {{#each post.answers as |answer|}}
+    <li>{{answer.answer}} -{{answer.author}}</li>
+  {{/each}}
+</ul>
