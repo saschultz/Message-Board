@@ -17,6 +17,13 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+      apiKey: 'AIzaSyA9_u78Eod0NRz3eQYYCDmLBALK1UNIgJM',
+      authDomain: 'women-in-teach-ama.firebaseapp.com',
+      databaseURL: 'https://women-in-teach-ama.firebaseio.com',
+      storageBucket: 'women-in-teach-ama.appspot.com'
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
