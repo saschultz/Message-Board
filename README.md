@@ -1,10 +1,14 @@
 # message-board
 
+![screenshot](public/assets/images/screenshot.png)
+
 #### Sara Schultz, 06.02.2017
 
 The second solo JavaScript project at Epicodus was to build an Ember.js message board application. This application is created specially for femme identifying developers in Portland, OR. The application allows the user to enter questions, as well as answer questions of the other developers in their community. It also serves as a resource for women in tech to connect to meet ups and grow in knowledge.
 
-![screenshot](public/assets/images/screenshot.png)
+
+![screenshot](public/assets/images/screenshot2.png)
+
 
 ## Specs
 
